@@ -1,7 +1,7 @@
-def printMessage(String jobName) {
+def printMsg(String jobName) {
   message = "Hi " + jobName + ". This is from Shared Library."
 }
 
 def call (String jobName) {
-   printMessage(to, from, subject, body)
+   printMsg(to, from, subject, body)
 }
